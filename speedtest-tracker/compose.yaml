@@ -7,7 +7,6 @@ services:
         environment:
             - PUID=1000
             - PGID=1000
-            - TZ=<TIMEZONE>
             - APP_KEY=<APPKEY>
             - DB_CONNECTION=sqlite
             - DISPLAY_TIMEZONE=<TIMEZONE>
