@@ -4,7 +4,7 @@ services:
     network_mode: "host"      
     restart: unless-stopped
     volumes:
-    -./data:/data/WatchYourLAN
+    - ./data:/data/WatchYourLAN
     environment:
       TZ: <TIMEZONE>
       IFACES: "<INTERFACES>"
